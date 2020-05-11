@@ -9,14 +9,14 @@ header{
   background-color: pink;
 }
 
-div{
+section{
   float: left;
   width: 25%;
-  margin: 4px;
+  margin: 0.2%;
 
 }
 
- .sezione1::after {
+ main::after {
    content: "";
    display: table;
    clear: both;
@@ -35,15 +35,11 @@ div{
 
 .right {
   float: right;
-  display: inline-block;
-  height: 200px;
-  background-color: #86379e;
 }
 
-.right-bot {
-  float: right;
-  display: inline-block;
+.purple {
   height: 200px;
+  margin-bottom: 1%;
   background-color: #86379e;
 }
 
